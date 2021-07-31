@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --base-href /hcg-angular/ --configuration production",
+    "build": "ng build --base-href /angular/ --configuration production",
     "final-build": "npm run build && npm run purgecss",
     "purgecss": "node run-purgecss.js",
     "test": "jest",
