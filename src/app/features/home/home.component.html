@@ -1,0 +1,6 @@
+<div *ngFor="let endpoint of endpoints$">
+    <div *ngIf="endpoint | async as endpoint">
+      {{ endpoint.data.name }} 
+      {{ endpoint.data.rateUsd }}
+    </div>
+</div>

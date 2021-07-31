@@ -1,0 +1,7 @@
+{
+  "$schema": "https://on.cypress.io/cypress.schema.json",
+  "fixturesFolder": "cypress/fixtures",
+  "integrationFolder": "cypress/integration",
+  "pluginsFile": "cypress/plugins/index.js",
+  "supportFile": "cypress/support/index.js"
+}
